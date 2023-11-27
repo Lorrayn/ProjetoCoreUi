@@ -1,0 +1,85 @@
+
+.content-mod{
+  background-color: rgb(192,232,255)!important;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  border-radius: 5px 10px;
+  
+}
+
+.content2-mod{
+  background-color: rgb(192,232,255)!important;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;  
+  color:black;
+ 
+
+}
+
+.card-body{
+  position: relative;
+}
+.login-bola{
+  background: lightblue;
+  border-radius: 50px 40px 100px 60px;
+  width: 200px;
+  height: 200px;
+  background-color:blue;
+  position: relative;
+  right: 45px;
+  bottom:41px;
+}
+h1 {
+  font-size: 50px;
+  color:#FAFFFA;
+  text-align: center;
+  font-family: "Open Sans",sans-serif; 
+  position: relative;
+  right: 125px;
+  bottom:165px;
+ 
+  
+}
+
+.SingUp{
+  color:#61615d;
+  position: relative;
+  top:100px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.botao{
+  color:#3b3b33;
+  background-color: rgb(168, 214, 241);
+  
+}
+
+.textologin{
+  position: relative;
+  bottom: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.caixa{
+  bottom: 50px;
+}
+.caixa2{
+  bottom: 50px;
+}
+.container {
+  display: flex; /* ou grid */
+  flex-direction: column; /* ou row se necessário */
+}
+p {
+  font-size: 16px;
+}
+
+/* Estilos para telas menores (exemplo: smartphones) */
+@media (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
